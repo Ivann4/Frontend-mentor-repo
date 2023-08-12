@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@400;500&family=Outfit&family=Overpass:wght@400;800&family=Roboto&display=swap');
+
+body{
+    background-color: hsl(219, 27%, 77%);
+    margin: 0;
+    padding: 0;
+}
+.qr-container{
+    margin: auto;
+    margin-top: 5%;
+    max-width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    padding: 1%;
+    text-align: center;
+}
+.qr-container img{
+    border-radius: 15px;
+    max-width: 100%;
+    height: 80%;
+}
+.title-container{
+    display: flex;
+    flex-direction: column;
+    padding-top: 5px;
+    width: 100%;
+}
+.title-container h1{
+    font-family: Outfit;
+    font-weight: 700;
+}
+.decription{
+    display: flex;
+    flex-direction: column;
+    font-family: Outfit;
+    font-weight: 400;
+    width: 90%;
+}
+.decription p{
+    font-family: Outfit;
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .qr-container{
+        width: 80%;
+        margin-top: 7%;
+        padding: 5%;
+    }
+    .title-container h1{
+        font-family: Outfit;
+        font-weight: 700;
+        font-size: 1.5rem;
+    }
+    .decription p{
+        font-family: Outfit;
+        font-weight: 400;
+        font-size: 1rem;
+    }
+  }
